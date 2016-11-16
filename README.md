@@ -2,8 +2,6 @@
 
 ### Synopsis
 
-This is a test edit.
-
 Madly Ambiguous is a demonstration and game for teaching the basics of structural (and other forms of linguistic) ambiguity.
 
 The spunky Mr. Computer Head narrates as users read about structural ambiguity; after that, users face off against Mr. Computer Head in a game where they try to complete an ambiguous PP-attachment sentence in a way that makes Mr. Computer Head guess the incorrect interpretation. After playing a round of the game, users may read more about how Mr. Computer Head and systems like him are trained to deal with tasks of ambiguity.
