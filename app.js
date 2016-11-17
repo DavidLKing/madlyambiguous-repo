@@ -135,7 +135,7 @@ function GetMainN(words, taggedWords) {
 	// transform each tag into first letter and turn into single string
 	var s = '';
 	taggedWords.forEach(function(x,i) { s += x[1][0]; });
-	//console.log('1. '+s);
+	console.log('1. '+s);
 
 	var ind1 = 0;
 	var ind2 = s.length;
@@ -145,21 +145,21 @@ function GetMainN(words, taggedWords) {
 		ind1 += x+1;
 		s = s.substring(x+1);
 	}
-	//console.log('2. '+s);
+	console.log('2. '+s);
 
 	var x = s.lastIndexOf('I');
 	if (x >= 0) {
 		ind2 = ind1 + x;
 		s = s.substring(0,x);
 	}
-	//console.log('3. '+s);
+	console.log('3. '+s);
 
 	x = s.lastIndexOf('N');
 	if (x >= 0) {
 		ind2 = ind1 + x + 1;
 		s = s.substring(0,x+1);
 	}
-	//console.log('4. '+s);
+	console.log('4. '+s);
 
 	var patt = s.match(/J*N+/);
 	if (patt) {
@@ -171,8 +171,8 @@ function GetMainN(words, taggedWords) {
 		ind2 = 0;
 		s = '';
 	}*/
-	//console.log('5. '+s);
-	//console.log('!! '+words.slice(ind1,ind2));
+	console.log('5. '+s);
+	console.log('!! '+words.slice(ind1,ind2));
 
 	return words.slice(ind1,ind2);
 }
