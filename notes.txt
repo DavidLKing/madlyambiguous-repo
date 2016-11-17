@@ -1,0 +1,12 @@
+On Oct 27, 2016, at 8:52 AM, Kathryn Campbell-Kibler <campbell-kibler.1@osu.edu> wrote:
+
+
+Ok, I've done the demo and I really like the shiny interface. I also like the basic task a lot. It's fun and engaging and should be good for kids since you can be silly.
+
+The instructions are a bit confusing, because they do a very thorough job of explaining structural ambiguity, but they don't really explain the game at all. So when I got to the game, I actually went back to "instructions" because I didn't realize that the explanation of ambiguity I'd just read had been the instructions. They are also long enough that I though the explanation of ambiguity was the full demo and was confused when there was a game to play (and then remember I knew about the game from before). I would shorten the discussion of the ambiguity a lot and make it more focused on questions, so people can do stuff (even if it's not clicking stuff, just saying it out loud). In fact, modeling the explanation on the game might be your best bet, so if the first part, the computer asks you which meaning is intended, so then in the game you ask the computer, with an explanation for why it's hard for computers in between ("You can't just use the words, you have to know something about the world" or similar). That way it's a game throughout.
+
+The explanation for how it works is a little spotty. There are three screens about selecting the head noun, but it's not clear how that happens. The different color on WordNet and the categories tool, etc make it look like those are hyperlinks. Will those be links in the final version? 
+
+Somewhere, it would be good to link this to how we use computers. Why do we even want computers to be able to do this?
+
+-K
