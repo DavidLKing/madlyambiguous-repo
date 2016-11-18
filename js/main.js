@@ -24,7 +24,7 @@ $(document).ready(function() {
 	socket = io.connect(cUrl);
 
 	socket.on('ReturnWN', function(data) {
-		//console.log(data);
+		console.log(data);
 		var guess = 'Jane ate spaghetti in the presence of <span class="blank"></span>.';
 		$('.opt .txt:first-child').text('No,');
 		$('.opt').removeClass('compsel');

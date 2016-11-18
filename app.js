@@ -236,6 +236,7 @@ io.on('connection', function (socket) {
 				});
 
 			} else socket.emit('ReturnWN','company');
+			console.log("test");
 			//} else socket.emit('ReturnWN','none');
 		}
 	});

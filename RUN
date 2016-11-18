@@ -6,5 +6,5 @@ if [[ $PID ]]; then
 	kill -9 $PID
 fi
 
-#nohup node ./app.js &
+# nohup node ./app.js &
 nohup node ./app.js 1035 &
