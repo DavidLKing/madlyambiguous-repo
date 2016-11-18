@@ -205,6 +205,8 @@ io.on('connection', function (socket) {
 
 			if (known) {
 				var mn = GetMainN(words, taggedWords);
+				// console.log isn't writing to the console or sdtout... this is confusing
+				// socket.emit('ReturnWM', mn)
 				var ln = [];
 				lemmer.lemmatize(mn, function(err,lems) {
 					ln = lems;
@@ -216,7 +218,8 @@ io.on('connection', function (socket) {
 					var variants = [mn.join(' '), ln.join(' ')];
 					if (mn.length > 1) variants = variants.concat([mn.slice(0,mn.length-1).join(' '), ln.slice(0,ln.length-1).join(' ')]);
 					variants = variants.concat(mn).concat(ln);
-					//console.log(variants)
+					console.log("variants")
+					console.log(variants)
 
 					var found = false;
 					for (var i=0; i<variants.length; i++) {
@@ -236,7 +239,8 @@ io.on('connection', function (socket) {
 				});
 
 			} else socket.emit('ReturnWN','company');
-			console.log("test");
+			// console.log("test");
+			// socket.emit('ReturnWN', 'test');
 			//} else socket.emit('ReturnWN','none');
 		}
 	});
