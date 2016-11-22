@@ -29,7 +29,7 @@ function play() {
 		answerLoaded = false;
 
 		emote = new Image();
-		emote.src = '../images/photos/mrcomputerhead-thinking2.svg';
+		emote.src = '../images/photos/mrcomputerhead-thinking2.gif';
 
 		return animate();
 	}

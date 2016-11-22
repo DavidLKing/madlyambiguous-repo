@@ -1,0 +1,62 @@
+\documentclass[11pt]{article}
+%Gummi|065|=)
+\usepackage{fullpage}
+\usepackage{qtree}
+\usepackage{tikz-qtree}
+\usetikzlibrary{trees}
+\begin{document}
+\Tree [.entity 
+        [.physical 
+            [.object
+                [.whole
+                    [.artifact
+                        [.article
+                            [.ware
+                                [.tableware
+                                    [.\textbf{utensil}
+                                        [.fork ] ] ] ] ] ] ] ]
+            [.matter
+                [.substance
+                    [.\textbf{food}
+                        [.nutriment
+                            [.dish
+                                [.meatball ] ] ] ] ] ] ]
+        [.abstract
+            [.attribute
+                [.\textbf{state}
+                    [.feeling
+                        [.pleasure
+                            [.enjoyment
+                                [.gusto ] ] ] ] ] ] ] ]\\
+\resizebox{\textwidth}{!}{
+\begin{tikzpicture}[grow'=right,level distance=1.25in,sibling distance=.25in]
+\tikzset{edge from parent/.style= 
+            {thick, draw, edge from parent fork right},
+         every tree node/.style=
+            {draw,minimum width=1in,text width=1in,align=center}}
+\Tree [.entity 
+        [.physical 
+            [.object
+                [.whole
+                    [.artifact
+                        [.article
+                            [.ware
+                                [.tableware
+                                    [.\textbf{utensil}
+                                        [.fork ] ] ] ] ] ] ] ]
+            [.matter
+                [.substance
+                    [.\textbf{food}
+                        [.nutriment
+                            [.dish
+                                [.meatball ] ] ] ] ] ] ]
+        [.abstract
+            [.attribute
+                [.\textbf{state}
+                    [.feeling
+                        [.pleasure
+                            [.enjoyment
+                                [.gusto ] ] ] ] ] ] ] ]
+\end{tikzpicture}
+}
+\end{document}
