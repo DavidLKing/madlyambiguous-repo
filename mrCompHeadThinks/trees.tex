@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage{tikz-dependency}
+\begin{document}
+    \begin{dependency}%[font=\huge,theme=simple]
+        \begin{deptext}
+			Jane \& ate \& spaghetti \& with \& a placeholder \\
+            NP \& VBG \& NP \& IN \& NP \\
+        \end{deptext}
+        \depedge{2}{1}{nsubj}
+        \depedge{2}{3}{dobj}
+        %~ \depedge{2}{4}{prep}
+        \depedge{2}{4}{prep/instrument}
+        \depedge{4}{5}{pobj}
+		% \deproot{2}{root}
+    \end{dependency}
+    
+    \begin{dependency}
+        \begin{deptext}
+			Jane \& ate \& spaghetti \& with \& a placeholder \\
+            NP \& VBG \& NP \& IN \& NP \\
+        \end{deptext}
+        \depedge{2}{1}{nsubj}
+        \depedge{2}{3}{dobj}
+        \depedge{2}{4}{prep/manner}
+        \depedge{4}{5}{pobj}
+		% \deproot{2}{root}
+    \end{dependency}
+    
+    \begin{dependency}
+        \begin{deptext}
+			Jane \& ate \& spaghetti \& with \& a placeholder \\
+            NP \& VBG \& NP \& IN \& NP \\
+        \end{deptext}
+        \depedge{2}{1}{nsubj}
+        \depedge{2}{3}{dobj}
+        \depedge{2}{4}{prep/co-participant}
+        \depedge{4}{5}{pobj}
+		% \deproot{2}{root}
+    \end{dependency}
+    
+    \begin{dependency}
+        \begin{deptext}
+			Jane \& ate \& spaghetti \& with \& a placeholder \\
+            NP \& VBG \& NP \& IN \& NP \\
+        \end{deptext}
+        \depedge{2}{1}{nsubj}
+        \depedge{2}{3}{dobj}
+        \depedge[edge unit distance=26]{3}{4}{prep/assoc-entity}
+        \depedge{4}{5}{pobj}
+		% \deproot{2}{root}
+    \end{dependency}
+\end{document}
