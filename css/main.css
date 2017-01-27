@@ -177,6 +177,25 @@ hr { border-width:2px; }
 /*.heading:after, .content:after { content:""; height:100px; display:block; }*/
 
 /*************************
+********GIF***************
+*********************** */
+
+.gifstyle{
+	text-align:center;
+	background:#000000;
+	/*color:#FFFFFF;*/
+	color:#000000;
+	background-size:cover!important;
+	height:100%; width:100%;
+	position:relative;
+	font-size:x-large;
+	padding:100px 50px;
+	overflow-y:auto; overflow-x:hidden;
+	width:100%;
+	min-height:100vh; max-height:100vh;
+}
+
+/*************************
 **********Content*********
 **************************/
 

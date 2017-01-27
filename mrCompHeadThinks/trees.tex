@@ -1,9 +1,10 @@
 \documentclass{article}
 \usepackage{tikz-dependency}
+\usepackage{tikz-qtree}
 \begin{document}
     \begin{dependency}%[font=\huge,theme=simple]
         \begin{deptext}
-			Jane \& ate \& spaghetti \& with \& a placeholder \\
+			Jane \& ate \& spaghetti \& with \& a fork \\
             NP \& VBG \& NP \& IN \& NP \\
         \end{deptext}
         \depedge{2}{1}{nsubj}
@@ -16,7 +17,7 @@
     
     \begin{dependency}
         \begin{deptext}
-			Jane \& ate \& spaghetti \& with \& a placeholder \\
+			Jane \& ate \& spaghetti \& with \& gusto \\
             NP \& VBG \& NP \& IN \& NP \\
         \end{deptext}
         \depedge{2}{1}{nsubj}
@@ -28,7 +29,7 @@
     
     \begin{dependency}
         \begin{deptext}
-			Jane \& ate \& spaghetti \& with \& a placeholder \\
+			Jane \& ate \& spaghetti \& with \& Jane \\
             NP \& VBG \& NP \& IN \& NP \\
         \end{deptext}
         \depedge{2}{1}{nsubj}
@@ -40,7 +41,7 @@
     
     \begin{dependency}
         \begin{deptext}
-			Jane \& ate \& spaghetti \& with \& a placeholder \\
+			Jane \& ate \& spaghetti \& with \& meatballs \\
             NP \& VBG \& NP \& IN \& NP \\
         \end{deptext}
         \depedge{2}{1}{nsubj}
@@ -49,4 +50,39 @@
         \depedge{4}{5}{pobj}
 		% \deproot{2}{root}
     \end{dependency}
+
+\Tree [.{...}
+		[.entity 
+			[.physical 
+				[.object
+					[.{...}
+						[.utensil spoon fork ]
+					]
+				]
+				[.matter
+					[.{...} 
+						[.food
+							[.{...} 
+								[.dish meatball ]
+							]
+							[.{...} 
+								[.{dairy product} cheese ]
+							]
+						]
+					]
+				]
+			]
+			[.abstract
+				[.{...}
+					[.feeling
+						[.{...} 
+							[.enjoyment zest gusto ]
+						]
+					]
+				]
+			] 
+		  ]
+		[.{...} ]
+		]
+	  
 \end{document}

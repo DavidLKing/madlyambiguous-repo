@@ -91,6 +91,7 @@ $(document).on(click,'.input-enter',function(event) {
 		socket.emit('RequestParse',[inputtext]);
 		play(); //draw canvas
 		$('.vertical').slick('slickGoTo',3);
+        // $('.vertical').slick('slickGoTo',4);
 	}
 });
 
@@ -188,7 +189,8 @@ $(document).on(click,'.opt',function(event) {
 		else if (global == 'loss' && local == 'loss') stats += GetRandomElem(globallosslocalloss);
 
 		$('.stats').append(stats);
-		$('.vertical').slick('slickGoTo',4);
+		// CHANGED BY DLK TO ADD EXTRA SLIDE WITH GIF
+		$('.vertical').slick('slickGoTo',5);
 
 		UserJudge = $(this).attr('class').split(/\s+/)[1];
 		socket.emit('SaveResults',[UserInput, CompGuess, UserJudge]);

@@ -1,0 +1,682 @@
+Connection from: undefined
+Connection from: undefined
+1. NN
+2. NN
+3. NN
+4. NN
+5. NN
+!! cheese,bread
+test
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+Saved results: asdf,company,company
+1. DJN
+2. DJN
+3. DJN
+4. DJN
+5. JN
+!! fine,spoon
+Connection from: undefined
+Connection from: undefined
+1. DNN
+2. DNN
+3. DNN
+4. DNN
+5. NN
+!! cheese,fork
+Saved results: a cheese fork,food,food
+Connection from: undefined
+Connection from: undefined
+1. DRJN
+2. DRJN
+3. DRJN
+4. DRJN
+5. JN
+!! fine,fork
+Connection from: undefined
+Connection from: undefined
+1. DRJN
+2. DRJN
+3. DRJN
+4. DRJN
+5. JN
+!! fine,fork
+[ 'fine fork',
+  'fine fork',
+  'fine',
+  'fine',
+  'fine',
+  'fork',
+  'fine',
+  'fork' ]
+Connection from: undefined
+Connection from: undefined
+1. DRJN
+2. DRJN
+3. DRJN
+4. DRJN
+5. JN
+!! fine,fork
+Connection from: undefined
+Connection from: undefined
+Connection from: undefined
+1. DRJNN
+2. DRJNN
+3. DRJNN
+4. DRJNN
+5. JNN
+!! excellent,cheese,fork
+[ 'excellent cheese fork',
+  'excellent cheese fork',
+  'excellent cheese',
+  'excellent cheese',
+  'excellent',
+  'cheese',
+  'fork',
+  'excellent',
+  'cheese',
+  'fork' ]
+Connection from: undefined
+Connection from: undefined
+1. DRJNN
+2. DRJNN
+3. DRJNN
+4. DRJNN
+5. JNN
+!! excellent,cheese,fork
+variants
+[ 'excellent cheese fork',
+  'excellent cheese fork',
+  'excellent cheese',
+  'excellent cheese',
+  'excellent',
+  'cheese',
+  'fork',
+  'excellent',
+  'cheese',
+  'fork' ]
+Saved results: a most excellent cheese fork,food,food
+1. NCDN
+2. NCDN
+3. NCDN
+4. NCDN
+5. N
+!! mushrooms
+variants
+[ 'mushrooms', 'mushroom', 'mushrooms', 'mushroom' ]
+Saved results: mushrooms and a knife,food,food
+1. NCN
+2. NCN
+3. NCN
+4. NCN
+5. N
+!! cheese
+variants
+[ 'cheese', 'cheese', 'cheese', 'cheese' ]
+Saved results: cheese and bacon,food,food
+1. NN
+2. NN
+3. NN
+4. NN
+5. NN
+!! colonel,mustard
+variants
+[ 'colonel mustard',
+  'colonel mustard',
+  'colonel',
+  'colonel',
+  'colonel',
+  'mustard',
+  'colonel',
+  'mustard' ]
+Saved results: Colonel Mustard,food,company
+Connection from: undefined
+1. DNIN
+2. N
+3. N
+4. N
+5. N
+!! cheese
+variants
+[ 'cheese', 'cheese', 'cheese', 'cheese' ]
+Saved results: a abundance of cheese,food,food
+Connection from: undefined
+1. DNIN
+2. N
+3. N
+4. N
+5. N
+!! meatballs
+variants
+[ 'meatballs', 'meatball', 'meatballs', 'meatball' ]
+Saved results: a bunch of meatballs,food,food
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! chopsticks
+variants
+[ 'chopsticks', 'chopstick', 'chopsticks', 'chopstick' ]
+Saved results: chopsticks,utensil,utensil
+/home/david/bin/git/madlyambiguous-repo/app.js:122
+		} else {
+		^
+
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:374:25)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+    at startup (node.js:136:18)
+    at node.js:966:3
+/home/david/bin/git/madlyambiguous-repo/app.js:122
+		} else {
+		^
+
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:374:25)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+    at startup (node.js:136:18)
+    at node.js:966:3
+Connection from: undefined
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Does not exists: /home/david/bin/git/madlyambiguous-repo/images/photos/mrcomputerhead-thinking2.giv
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! aasdf
+variants
+[ 'aasdf', 'aasdf', 'aasdf', 'aasdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Does not exists: /home/david/bin/git/madlyambiguous-repo/images/photos/mrcomputerhead-thinking2.svg
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,none
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,none
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,none
+1. N
+2. N
+3. N
+4. N
+5. N
+!! hfgd
+variants
+[ 'hfgd', 'hfgd', 'hfgd', 'hfgd' ]
+Saved results: hfgd,company,manner
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: ASDF,company,none
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Does not exists: /home/david/bin/git/madlyambiguous-repo/image/photos/mrcomputerhead-thinking2.gif
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Does not exists: /home/david/bin/git/madlyambiguous-repo/image/photos/mrcomputerhead-thinking2.gif
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! sdfg
+variants
+[ 'sdfg', 'sdfg', 'sdfg', 'sdfg' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,none
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Does not exists: /home/david/bin/git/madlyambiguous-repo/gifshot.js
+Does not exists: /home/david/bin/git/madlyambiguous-repo/gifshot.js
+Connection from: undefined
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,manner
+1. N
+2. N
+3. N
+4. N
+5. N
+!! adf
+variants
+[ 'adf', 'adf', 'adf', 'adf' ]
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! aadf
+variants
+[ 'aadf', 'aadf', 'aadf', 'aadf' ]
+Saved results: aadf,company,none
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,none
+Connection from: undefined
+1. N
+2. N
+3. N
+4. N
+5. N
+!! asdf
+variants
+[ 'asdf', 'asdf', 'asdf', 'asdf' ]
+Saved results: asdf,company,company
+1. N
+2. N
+3. N
+4. N
+5. N
+!! trew
+variants
+[ 'trew', 'trew', 'trew', 'trew' ]
