@@ -13,16 +13,20 @@ function play() {
 		canvas = $('#canvas');
 		ctx = canvas[0].getContext("2d");
 		ctx.canvas.width = canvas.parent().outerWidth(); //window.innerWidth;
+		// full width in window
+        // ctx.canvas.width = 1200
 		ctx.canvas.height = canvas.parent().outerHeight(); //window.innerHeight;
 
-		WIDTH = canvas.width();
+		WIDTH = canvas.width() ;
 		HEIGHT = canvas.height();
 		MOUSEX = -1;
 		MOUSEY = -1;
 
 		time = new Date().getTime();
 		now = time;
-		dt = now-time;
+		// dt = now-time;
+		// makes the whole process long and the dots slower
+        dt = (now-time) * 2;
 		elapsed = dt;
 
 		opacity = 1;
@@ -40,9 +44,18 @@ function play() {
 			setTimeout(requestAnimationFrame(animate), ((dt>=1000/60) ? 0 : Math.floor(1000/60-dt)));
 			draw();
 		} else {
-			ctx.drawImage(emote,0,0,0,0);
+			// TODO HERE IT IS
+			// void ctx.drawImage(image, dx, dy, dWidth, dHeight);
+            // 1060 x 591
+			// didn't work, but should have
+            ctx.drawImage(emote,0,0,0,0);
+            // ctx.drawImage(emote,0,0,1060,591);
+            // ctx.drawImage(emote,0,0,106,591);
 			clear();
-			ctx.canvas.width = 0;
+			// ctx.canvas.width = 0;
+            ctx.canvas.width = 1000;
+			// no effect
+            // ctx.canvas.width = 1000;
 			ctx.canvas.height = 0;
 			answerLoaded = false;
 		}
@@ -64,14 +77,18 @@ function play() {
 
 		rect('rgb(0,0,0)','',0,0,WIDTH,HEIGHT);
 
+		// no effect here
 		if (WIDTH > 800) ctx.drawImage(emote,WIDTH/2-100,HEIGHT/2-300,200,200);
+        // if (WIDTH > 400) ctx.drawImage(emote,WIDTH/2-100,HEIGHT/2-300,200,200);
 		else ctx.drawImage(emote,WIDTH/2-75,HEIGHT/2-200,150,150);
 
 		var text = 'Let me think';
 		var clr = 'rgba(255,255,255,1)';
 
 		ctx.textBaseline = "top";
+		// shrinks text with higher WIDTH value
 		if (WIDTH > 800) ctx.font = '100px ABeeZee';
+        // if (WIDTH > 1800) ctx.drawImage(emote,WIDTH/2-100,HEIGHT/2-300,200,200);
 		else ctx.font = '45px ABeeZee';
 		ctx.textAlign = 'center';
 		ctx.textBaseline = 'middle';
