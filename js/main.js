@@ -190,7 +190,8 @@ $(document).on(click,'.opt',function(event) {
 
 		$('.stats').append(stats);
 		// CHANGED BY DLK TO ADD EXTRA SLIDE WITH GIF
-		$('.vertical').slick('slickGoTo',5);
+		// $('.vertical').slick('slickGoTo',5);
+        $('.vertical').slick('slickGoTo',4);
 
 		UserJudge = $(this).attr('class').split(/\s+/)[1];
 		socket.emit('SaveResults',[UserInput, CompGuess, UserJudge]);

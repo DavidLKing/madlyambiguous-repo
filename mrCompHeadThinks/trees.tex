@@ -2,19 +2,88 @@
 \usepackage{tikz-dependency}
 \usepackage{tikz-qtree}
 \begin{document}
-    \begin{dependency}%[font=\huge,theme=simple]
+	%[font=\huge,theme=simple]
+    \begin{dependency}[theme=simple]
         \begin{deptext}
-			Jane \& ate \& spaghetti \& with \& a fork \\
-            NP \& VBG \& NP \& IN \& NP \\
+			Jane \& ate \& spaghetti \& with \& meatballs \\
+            NOUN \& VERB \& NOUN \& PREP \& NOUN \\
         \end{deptext}
-        \depedge{2}{1}{nsubj}
-        \depedge{2}{3}{dobj}
+        \depedge{2}{1}{}
+        \depedge{2}{3}{}
         %~ \depedge{2}{4}{prep}
-        \depedge{2}{4}{prep/instrument}
-        \depedge{4}{5}{pobj}
+        \depedge{2}{4}{}
+        \depedge{4}{5}{}
+		% \deproot{2}{root}
+    \end{dependency}
+
+    \begin{dependency}[theme=simple]
+        \begin{deptext}
+			Jane \& ate \& spaghetti \& with \& meatballs \\
+            NOUN \& VERB \& NOUN \& PREP \& NOUN \\
+        \end{deptext}
+        \depedge{2}{1}{}
+        \depedge{2}{3}{}
+        %~ \depedge{2}{4}{prep}
+        \depedge{3}{4}{}
+        \depedge{4}{5}{}
 		% \deproot{2}{root}
     \end{dependency}
     
+        \begin{dependency}[theme=simple]
+        \begin{deptext}
+			Jane \& ate \& spaghetti \& with \& gusto \\
+            NOUN \& VERB \& NOUN \& PREP \& NOUN \\
+        \end{deptext}
+        \depedge{2}{1}{}
+        \depedge{2}{3}{}
+        %~ \depedge{2}{4}{prep}
+        \depedge{2}{4}{manner}
+        \depedge{4}{5}{}
+		% \deproot{2}{root}
+    \end{dependency}
+
+    \begin{dependency}[theme=simple]
+        \begin{deptext}
+			Jane \& ate \& spaghetti \& with \& a fork \\
+            NOUN \& VERB \& NOUN \& PREP \& NOUN \\
+        \end{deptext}
+        \depedge{2}{1}{}
+        \depedge{2}{3}{}
+        %~ \depedge{2}{4}{prep}
+        \depedge{2}{4}{utensil}
+        \depedge{4}{5}{}
+		% \deproot{2}{root}
+    \end{dependency}
+
+    \begin{dependency}[theme=simple]
+        \begin{deptext}
+			Jane \& ate \& spaghetti \& with \& Mary \\
+            NOUN \& VERB \& NOUN \& PREP \& NOUN \\
+        \end{deptext}
+        \depedge{2}{1}{}
+        \depedge{2}{3}{}
+        %~ \depedge{2}{4}{prep}
+        \depedge{2}{4}{companion}
+        \depedge{4}{5}{}
+		% \deproot{2}{root}
+    \end{dependency}
+
+    \begin{dependency}[theme=simple]
+        \begin{deptext}
+			Jane \& ate \& spaghetti \& with \& meatballs \\
+            NOUN \& VERB \& NOUN \& PREP \& NOUN \\
+        \end{deptext}
+        \depedge{2}{1}{}
+        \depedge{2}{3}{}
+        %~ \depedge{2}{4}{prep}
+        \depedge{3}{4}{food}
+        \depedge{4}{5}{}
+		% \deproot{2}{root}
+    \end{dependency}
+
+    %%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
     \begin{dependency}
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& gusto \\
