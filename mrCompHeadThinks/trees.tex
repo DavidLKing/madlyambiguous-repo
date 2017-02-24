@@ -2,9 +2,10 @@
 \usepackage{tikz-dependency}
 \usepackage{tikz-qtree}
 \begin{document}
+	\thispagestyle{empty}
 	%[font=\huge,theme=simple]
     \begin{dependency}[theme=simple]
-    \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+    \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& a fork \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -19,7 +20,7 @@
     \end{dependency}
 
     \begin{dependency}[theme=simple]
-        \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+        \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& meatballs \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -33,7 +34,7 @@
     \end{dependency}
     
         \begin{dependency}[theme=simple]
-        \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+        \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& gusto \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -41,13 +42,13 @@
         \depedge{2}{1}{}
         \depedge{2}{3}{}
         %~ \depedge{2}{4}{prep}
-        \depedge[label style={font=\bfseries}]{2}{4}{manner}
+        \depedge[label style={font=\bfseries}]{2}{4}{MANNER}
         \depedge{4}{5}{}
 		% \deproot{2}{root}
     \end{dependency}
 
     \begin{dependency}[theme=simple]
-    \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+    \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& a fork \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -55,13 +56,13 @@
         \depedge{2}{1}{}
         \depedge{2}{3}{}
         %~ \depedge{2}{4}{prep}
-        \depedge[label style={font=\bfseries}]{2}{4}{instrument}
+        \depedge[label style={font=\bfseries}]{2}{4}{INSTRUMENT}
         \depedge{4}{5}{}
 		% \deproot{2}{root}
     \end{dependency}
 
     \begin{dependency}[theme=simple]
-        \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+        \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& Mary \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -69,13 +70,13 @@
         \depedge{2}{1}{}
         \depedge{2}{3}{}
         %~ \depedge{2}{4}{prep}
-        \depedge[label style={font=\bfseries}]{2}{4}{companion}
+        \depedge[label style={font=\bfseries}]{2}{4}{COMPANION}
         \depedge{4}{5}{}
 		% \deproot{2}{root}
     \end{dependency}
 
     \begin{dependency}[theme=simple]
-        \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+        \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& meatballs \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -83,7 +84,7 @@
         \depedge{2}{1}{}
         \depedge{2}{3}{}
         %~ \depedge{2}{4}{prep}
-        \depedge[label style={font=\bfseries}]{3}{4}{part-of}
+        \depedge[label style={font=\bfseries}]{3}{4}{PART-OF}
         \depedge{4}{5}{}
 		% \deproot{2}{root}
     \end{dependency}
@@ -126,18 +127,19 @@
         \depedge{4}{5}{pobj}
 		% \deproot{2}{root}
     \end{dependency}
-
+\newpage
+\thispagestyle{empty}
 \Tree [.{...}
 		[.entity 
 			[.physical 
 				[.object
 					[.{...}
-						[.utensil spoon fork ]
+						[.{\{utensil, cutlery\}} spoon fork ]
 					]
 				]
 				[.matter
 					[.{...} 
-						[.food
+						[.{\{food, nutrient\}}
 							[.{...} 
 								[.dish meatball ]
 							]
@@ -152,7 +154,7 @@
 				[.{...}
 					[.feeling
 						[.{...} 
-							[.enjoyment zest gusto ]
+							[.enjoyment {\{zest, relish, gusto\}} ]
 						]
 					]
 				]
