@@ -1,10 +1,15 @@
 \documentclass{article}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{sansmath} % Enables turning on sans-serif math mode, and using other environments
+\sansmath % Enable sans-serif math for rest of document
+%\usepackage{avant}
 \usepackage{tikz-dependency}
 \usepackage{tikz-qtree}
 \begin{document}
 	%[font=\huge,theme=simple]
     \begin{dependency}[theme=simple]
-    \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+    \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& a fork \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -19,7 +24,7 @@
     \end{dependency}
 
     \begin{dependency}[theme=simple]
-        \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+        \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& meatballs \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -33,7 +38,7 @@
     \end{dependency}
     
         \begin{dependency}[theme=simple]
-        \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+        \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& gusto \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -41,13 +46,13 @@
         \depedge{2}{1}{}
         \depedge{2}{3}{}
         %~ \depedge{2}{4}{prep}
-        \depedge[label style={font=\bfseries}]{2}{4}{manner}
+        \depedge[label style={font=\bfseries}]{2}{4}{MANNER}
         \depedge{4}{5}{}
 		% \deproot{2}{root}
     \end{dependency}
 
     \begin{dependency}[theme=simple]
-    \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+    \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& a fork \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -55,13 +60,13 @@
         \depedge{2}{1}{}
         \depedge{2}{3}{}
         %~ \depedge{2}{4}{prep}
-        \depedge[label style={font=\bfseries}]{2}{4}{instrument}
+        \depedge[label style={font=\bfseries}]{2}{4}{INSTRUMENT}
         \depedge{4}{5}{}
 		% \deproot{2}{root}
     \end{dependency}
 
     \begin{dependency}[theme=simple]
-        \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+        \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& Mary \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -69,13 +74,13 @@
         \depedge{2}{1}{}
         \depedge{2}{3}{}
         %~ \depedge{2}{4}{prep}
-        \depedge[label style={font=\bfseries}]{2}{4}{companion}
+        \depedge[label style={font=\bfseries}]{2}{4}{COMPANION}
         \depedge{4}{5}{}
 		% \deproot{2}{root}
     \end{dependency}
 
     \begin{dependency}[theme=simple]
-        \tikzstyle{POS}=[font=\scriptsize]%\bfseries,text=blue!60!black] 
+        \tikzstyle{POS}=[font=\tiny]%\bfseries,text=blue!60!black] 
         \begin{deptext}
 			Jane \& ate \& spaghetti \& with \& meatballs \\
             |[POS]| NOUN \& |[POS]| VERB \& |[POS]| NOUN \& |[POS]| PREP \& |[POS]| NOUN \\
@@ -83,7 +88,7 @@
         \depedge{2}{1}{}
         \depedge{2}{3}{}
         %~ \depedge{2}{4}{prep}
-        \depedge[label style={font=\bfseries}]{3}{4}{part-of}
+        \depedge[label style={font=\bfseries}]{3}{4}{PART-OF}
         \depedge{4}{5}{}
 		% \deproot{2}{root}
     \end{dependency}
@@ -129,15 +134,15 @@
 
 \Tree [.{...}
 		[.entity 
-			[.physical 
+			[.{physical entity}
 				[.object
 					[.{...}
-						[.utensil spoon fork ]
+						[.{\{eating utensil, cutlery\}} spoon fork ]
 					]
 				]
 				[.matter
 					[.{...} 
-						[.food
+						[.{\{food, nutrient\}}
 							[.{...} 
 								[.dish meatball ]
 							]
@@ -148,11 +153,11 @@
 					]
 				]
 			]
-			[.abstract
+			[.{abstract entity}
 				[.{...}
 					[.feeling
 						[.{...} 
-							[.enjoyment zest gusto ]
+							[.enjoyment {\{zest, relish, gusto\}} ]
 						]
 					]
 				]
@@ -160,5 +165,6 @@
 		  ]
 		[.{...} ]
 		]
+
 	  
 \end{document}
